@@ -440,7 +440,7 @@ public class Mod_12_Arrays {
         RainWaterTrappingProblem(ars, width);
         System.out.println();
 
-        System.out.println("MaxProfit : " + Best_Time_to_Buy_Sell_Stock_BRUTE_FORCE(ars));
+        System.out.println("MaxProfit : " + Best_Time_to_Buy_Sell_Stock(ars));
 
         //Search in a Rotated Array
         System.out.println("Enter Target");
