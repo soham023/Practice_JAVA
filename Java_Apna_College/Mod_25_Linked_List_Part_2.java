@@ -175,7 +175,7 @@ public class Mod_25_Linked_List_Part_2 {
 
     // Zig_Zag Linked_List
     
-   /*  public void Zig_Zag_LL() {
+   public void Zig_Zag_LL() {
 
         // find mid
         Node Slow = Head;
@@ -218,7 +218,7 @@ public class Mod_25_Linked_List_Part_2 {
 
         }
     }
-    */
+    
     public static void main(String[] args) {
         //Mod_25_Linked_List_Part_2  ll = new Mod_25_Linked_List_Part_2();
         // Head = new Node(1);
@@ -231,7 +231,7 @@ public class Mod_25_Linked_List_Part_2 {
         // RemoveCycle();
         // System.out.println( Detect_Cycle());
 
-        // Use classes instead of objects // Integer , Float , Character class instead of int , float , boolean object 
+        // Use classes instead of objects // Integer, Float , Character class instead of int , float , boolean object 
         LinkedList <Integer> ll = new LinkedList<>();
 
         // Add
@@ -258,8 +258,8 @@ public class Mod_25_Linked_List_Part_2 {
         ll1.AddFirst(4);
         ll1.AddFirst(5); 
         ll1.Print_Linked_List();
-        //ll1.Zig_Zag_LL();
-        //ll1.Print_Linked_List();
+        ll1.Zig_Zag_LL();
+        ll1.Print_Linked_List();
         ll1.Head = ll1.mergeSort(ll1.Head);
         ll1.Print_Linked_List();
 
